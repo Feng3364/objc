@@ -10,6 +10,7 @@
 		046C703423E855B30005B69E /* FXFather.m in Sources */ = {isa = PBXBuildFile; fileRef = 046C703323E855B30005B69E /* FXFather.m */; };
 		046C703723E855D00005B69E /* NSObject+FX.m in Sources */ = {isa = PBXBuildFile; fileRef = 046C703623E855D00005B69E /* NSObject+FX.m */; };
 		046C703A23E855E00005B69E /* FXSon.m in Sources */ = {isa = PBXBuildFile; fileRef = 046C703923E855E00005B69E /* FXSon.m */; };
+		04FA5A1E23F3F36700E21311 /* FXTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA5A1D23F3F36700E21311 /* FXTeacher.m */; };
 		393CEAC00DC69E3E000B69DE /* objc-references.mm in Sources */ = {isa = PBXBuildFile; fileRef = 393CEABF0DC69E3E000B69DE /* objc-references.mm */; };
 		393CEAC60DC69E67000B69DE /* objc-references.h in Headers */ = {isa = PBXBuildFile; fileRef = 393CEAC50DC69E67000B69DE /* objc-references.h */; };
 		39ABD72312F0B61800D1054C /* objc-weak.h in Headers */ = {isa = PBXBuildFile; fileRef = 39ABD71F12F0B61800D1054C /* objc-weak.h */; };
@@ -138,6 +139,8 @@
 		046C703623E855D00005B69E /* NSObject+FX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FX.m"; sourceTree = "<group>"; };
 		046C703823E855E00005B69E /* FXSon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXSon.h; sourceTree = "<group>"; };
 		046C703923E855E00005B69E /* FXSon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXSon.m; sourceTree = "<group>"; };
+		04FA5A1C23F3F36700E21311 /* FXTeacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXTeacher.h; sourceTree = "<group>"; };
+		04FA5A1D23F3F36700E21311 /* FXTeacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXTeacher.m; sourceTree = "<group>"; };
 		393CEABF0DC69E3E000B69DE /* objc-references.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "objc-references.mm"; path = "runtime/objc-references.mm"; sourceTree = "<group>"; };
 		393CEAC50DC69E67000B69DE /* objc-references.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "objc-references.h"; path = "runtime/objc-references.h"; sourceTree = "<group>"; };
 		39ABD71F12F0B61800D1054C /* objc-weak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "objc-weak.h"; path = "runtime/objc-weak.h"; sourceTree = "<group>"; };
@@ -423,6 +426,8 @@
 				046C703923E855E00005B69E /* FXSon.m */,
 				046C703223E855B30005B69E /* FXFather.h */,
 				046C703323E855B30005B69E /* FXFather.m */,
+				04FA5A1C23F3F36700E21311 /* FXTeacher.h */,
+				04FA5A1D23F3F36700E21311 /* FXTeacher.m */,
 				046C703523E855D00005B69E /* NSObject+FX.h */,
 				046C703623E855D00005B69E /* NSObject+FX.m */,
 			);
@@ -703,6 +708,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AF7677C220C299900D3CB66 /* main.m in Sources */,
+				04FA5A1E23F3F36700E21311 /* FXTeacher.m in Sources */,
 				046C703723E855D00005B69E /* NSObject+FX.m in Sources */,
 				046C703423E855B30005B69E /* FXFather.m in Sources */,
 				046C703A23E855E00005B69E /* FXSon.m in Sources */,

@@ -14,6 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)doInstanceBySon;
 + (void)doClassBySon;
 
+- (void)doInstanceNoImplementation;
++ (void)doClassNoImplementation;
+
 @end
 
 NS_ASSUME_NONNULL_END
